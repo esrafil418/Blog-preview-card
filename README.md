@@ -2,8 +2,6 @@
 
 This is my solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). This challenge helped me practice HTML, CSS, and Tailwind CSS by building a card component.
 
----
-
 ## Overview
 
 ### The challenge
@@ -19,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)
+- Live Site URL: [my-blog-preview](https://my-blog-preview.surge.sh/)
 
 ## My process
 
