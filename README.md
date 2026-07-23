@@ -33,13 +33,16 @@ Users should be able to:
 - [Tailwind CSS v4](https://tailwindcss.com/) - For styling
 - Custom fonts (Figtree)
 
-### What I learned
+## 📚 What I learned
 
-In this project, I learned how to:
+While building this project, I practiced several useful Tailwind CSS techniques and improved my understanding of responsive layouts:
 
-1. **Use Tailwind CSS v4** - I used the new `@theme` rule to add custom fonts.
-
-```css
-@theme {
-  --font-figtree: "Figtree", sans-serif;
-}
+- Used `min-h-screen` with `flex items-center justify-center` on the `<main>` element to perfectly center the card both vertically and horizontally.
+- Created a bold card shadow using `shadow-[8px_8px_0px_0px_#000000]` to match the design exactly.
+- Styled the image with `rounded-xl h-full overflow-hidden` to maintain clean rounded corners and prevent overflow.
+- Built the "Learning" badge using `text-sm font-bold bg-[#f6d050] rounded-md px-3 py-1 inline-block`, which keeps the badge only as wide as its content.
+- Used `text-sm text-black/80` to create a subtle visual hierarchy for the publication date.
+- Improved readability by applying `leading-relaxed max-w-xs` to the description text.
+- Used Flexbox (`flex items-center`) to align the author's avatar and name neatly in a single row.
+- Learned how to use Tailwind CSS v4's `@theme` directive to define a custom font (`Figtree`) and use it throughout the project.
+- Practiced recreating a design from Figma with pixel-accurate spacing, typography, border radius, and shadows using Tailwind CSS utilities.
